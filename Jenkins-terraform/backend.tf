@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "sydney-tetris" # Replace with your actual S3 bucket name
+    bucket = "sydney-tetris-1" # Replace with your actual S3 bucket name
     key    = "Jenkins/terraform.tfstate"
     region = "ap-southeast-2"
   }
